@@ -1,0 +1,264 @@
+.post_card_section{
+  .imagecontainer_5{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .col_1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+  }
+.dropdown-menu {
+  min-width: 165px;
+  margin-right: 30px;
+  top: -11px !important;
+    left: -133px !important;
+    @media (max-width:571px) {
+      left: 10px !important;
+    }
+}
+.calc_small{
+  height:calc(50% - 3px) !important;
+}
+.view_more_img{
+	position: relative;
+	cursor: pointer;
+}
+
+.img_overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.3);
+	border: 2px solid #fff;
+	p{
+		color: #fff;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		font-size: 30px;
+		text-shadow: 1px 1px 2px #000;
+		i{
+			font-size: 20px;
+		}
+	}
+
+}
+}
+.hidden > div{
+  padding-top: 0 !important;
+}
+.dropdown-menu input {
+  border-radius: 2px;
+  margin: 2px 5px;
+  padding: 0px 10px;
+  border: 0.5px solid #eee;
+  background: #f9f9f9;
+}
+
+.dropdown-menu input::placeholder {
+  font-size: 13px;
+}
+
+.dropdown-menu p {
+  background: #eee;
+  padding: 2px 10px;
+  color: #272727;
+  font-weight: 600;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 13px;
+  padding: 4px 15px 4px 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #333333;
+  font-weight: 500;
+  font-family: "roboto";
+  
+  &:last-child{
+    border-bottom: none;
+  }
+}
+
+.dropdown-menu .dropdown-item img {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.dropdown-menu .dropdown-item i {
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.dropdown-menu .dropdown-item:first-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: #1d9cf8;
+  color: #fff;
+}
+.Post_profile {
+  background: #fff;
+  img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+  }
+
+  h6 {
+    padding: 15px 10px 10px;
+    float: left;
+    font-size: 15px;
+    color: #000000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    span {
+      color: #8d8d8d;
+      padding-left: 2px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 10px;
+    i {
+      color: #7c7c7c;
+    }
+  }
+}
+
+.post_status p {
+  font-size: 15px;
+  color: #1f1f1f;
+  padding: 5px 0px;
+  font-family: sans-serif;
+}
+
+.post_dot >a {
+  float: right;
+  font-size: 25px;
+  color: #b1b1b1;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+  transition: 0.2s;
+}
+
+.post_dot a:hover {
+  color: #333;
+  background: #eee;
+}
+
+.post_like {
+  padding: 10px;
+  margin: 5px 0px;
+  border-top: 0.5px solid #ededed;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  span {
+    text-align: center;
+    color: #747474;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: #1d7dff;
+    }
+
+    &:focus {
+      color: #1d7dff;
+    }
+
+    i {
+      padding-right: 2px;
+    }
+  }
+}
+
+.comment_box {
+  padding: 10px;
+  margin: 0;
+  background: #fafafa;
+  border-radius: 5px;
+  img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0px 10px;
+  }
+  input {
+    height: 40px;
+    border-radius: 30px;
+    margin: 8px 0px;
+    border: 0.5px solid #e2e2e2;
+    width: 100%;
+  }
+  &:focus {
+    color: #000000;
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+/* Small Mobile -START (320 * 440) */
+@media  (max-width: 440px) {
+  .postcard_avatar{
+    margin-top: 0 !important;
+  }
+  .Post_profile img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .Post_profile h6 {
+    padding: 15px 0px 0px 5px;
+    font-size: 13px;
+    width: 80%;
+    float: left;
+  }
+
+  .Post_profile h6 span {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .Post_profile p {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+
+  .post_status p {
+    font-size: 13px;
+  }
+
+  .post_dot a {
+    margin-top: 10px;
+    font-size: 23px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .post_dot a:hover {
+    color: #333;
+  }
+  .post_like span{
+    font-size: 13px;
+  }
+}

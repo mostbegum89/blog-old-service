@@ -1,0 +1,89 @@
+.trending_group {
+  background: #fff;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  h6 {
+    color: #1a4b7c;
+    padding: 5px 10px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  .groups {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 5px;
+    margin: 5px 0px;
+    position: relative;
+    transition: 0.2s;
+    border-radius: 3px;
+    align-items: center;
+    &:hover {
+      background: #f8f8f8;
+    }
+    img {
+      height: 45px;
+      width: 45px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+    p {
+      color: #10578b;
+      font-weight: 600;
+      margin-top: 10px;
+      span {
+        color: #222;
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+    .btn {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      padding: 4px 8px;
+      font-weight: 300;
+      font-size: 13px;
+      i {
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+.moreBtn {
+  color: #2684d4;
+  padding: 3px 5px;
+  outline: none;
+  border: 1px solid #2684d4;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.moreBtn:hover {
+  background-color: #2684d4;
+  color: white;
+}
+
+@media (min-width: 766px) and (max-width: 1000px) {
+  .trending_group .groups img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .trending_group .groups .btn i {
+    font-size: 10px;
+  }
+
+  .trending_group .groups .btn {
+    top: 5px;
+    right: 0px;
+    padding: 2px 6px;
+    font-weight: 300;
+    font-size: 10px;
+  }
+}

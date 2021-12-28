@@ -1,0 +1,24 @@
+@import "default/default";
+
+@import "components/navbar";
+@import "components/createpost";
+@import "components/postcard";
+@import "components/trandinggroups";
+@import "components/shortprofile";
+@import "components/sharemodal";
+@import "components/secondheader";
+@import "components/linkpreview";
+@import "components/reportpopup";
+
+@import "pages/home";
+@import "pages/profile";
+@import "pages/usersetting";
+@import "pages/blogsandgroups";
+@import "pages/grouptimeline";
+@import "pages/groupsetting";
+@import "pages/bloghome";
+@import "pages/singlearticle";
+@import "pages/article";
+@import "pages/createarticle";
+@import "pages/login";
+@import "pages/chat";

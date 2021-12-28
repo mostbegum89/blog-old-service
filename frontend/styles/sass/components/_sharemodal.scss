@@ -1,0 +1,152 @@
+/* ---------------share popup------------- */
+
+.share_popup_part {
+    margin: 0px 0px;
+    overflow: hidden;
+  }
+  .share_popup_part h5 {
+    font-size: 18px;
+    color: #000;
+    font-family: "nexa";
+    text-align: center;
+  }
+  .popup_box {
+    background: #fff;
+  
+    padding: 0 10px 5px 5px;
+  }
+  .popup_box h6 {
+    background: #1262b2;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "nexa";
+  }
+  .popup_box h6 span {
+    font-size: 15px;
+    color: #fff;
+  }
+  .popup_box h6 span:hover {
+    color: #ff2f2f;
+  }
+  .social_icon {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 10px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  
+    flex-wrap: wrap;
+  }
+  .icons {
+    text-align: center;
+    // float: left;
+    margin: 0px 10px;
+  }
+  .icons a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+  .icons a i {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0px 10px;
+    color: #fff;
+  }
+  .icons a i:hover {
+    transform: scale(1.1);
+  }
+  .icons p {
+    font-size: 12px;
+    padding-top: 3px;
+    font-family: "nexa";
+  }
+  .share_item {
+    text-align: center;
+  }
+  .share_post {
+    padding: 10px;
+  }
+  .share_post .share_item {
+    text-align: center;
+    padding: 20px 10px;
+    border: 2px solid #ededed;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .share_post .share_item:hover {
+    border-color: #2e8fd4;
+  }
+  .share_post .share_item a i {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 2.5;
+    margin: 0px 10px;
+    color: #2e8fd4;
+    background: #efefef;
+  }
+  .share_post .share_item p {
+    font-family: "nexa";
+    padding-top: 10px;
+  }
+  .user {
+    padding: 10px;
+    background: #f4f4f4;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .user img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+  }
+  .user h4 {
+    font-size: 14px;
+    color: #222;
+    padding: 5px 0px 4px;
+  }
+  .user h4 span {
+    font-size: 13px;
+    color: #4d4d4d;
+    font-weight: 500;
+  }
+  .user h4 i {
+    color: #fa0000;
+  }
+  .user h4 a i {
+    float: right;
+    font-size: 20px;
+    margin: 10px;
+    color: #696969;
+  }
+  .user h4 a i:hover {
+    color: #1583d1;
+  }
+  .user p {
+    font-size: 11px;
+  }
+  .share_btn {
+    padding: 10px 0px 30px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .share_btn .btn {
+    float: right;
+    margin: 0px 10px;
+  }

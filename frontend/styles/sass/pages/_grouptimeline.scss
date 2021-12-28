@@ -1,0 +1,192 @@
+#group_container{
+    max-width: 957px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+
+    /*================================================================== */
+.dropdown-toggle::after {
+    display: none;
+  }
+  /* ------------------------------------------------------------------- */
+  /* >>>>> BANNER = (START) >>>>> */
+  .banner_group_timeline_part{
+    position: relative;
+  }
+  .banner_group_timeline_part img {
+    width: 100%;
+    height: 300px;
+    
+  }
+  .banner_group_timeline_part .change_coverpic .dropdown {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+  }
+  .banner_group_timeline_part .change_coverpic .dropdown .btn {
+    background: rgba(255, 255, 255, 0.95);
+    color: #000;
+    border-radius: 0;
+  }
+  .banner_group_timeline_part .change_coverpic .dropdown .btn:hover {
+    background: #0f92d8;
+    color: #fff;
+  }
+  .banner_group_timeline_part .change_coverpic .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'roboto';
+  }
+  .banner_group_timeline_part .change_coverpic .dropdown-menu .dropdown-item:hover {
+    background: #1d9cf8;
+    color: #fff;
+  }
+  .banner_group_timeline_part h4 {
+    position: absolute;
+    bottom: 65px;
+    left: 200px;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px #222;
+  }
+  .banner_group_timeline_part h4 .btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 2px 14px;
+  }
+  .banner_group_timeline_part h4 .btn:hover {
+    background: #0d84db;
+    border-color: #b7e1ff;
+  }
+  .banner_group_timeline_part .profile_pic img {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 70px;
+    border: 4px solid #ffffff;
+    z-index: 9;
+  }
+  .banner_group_timeline_part .cover_dropdown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 200px;
+    background: #fff;
+  }
+  .banner_group_timeline_part .cover_dropdown .dropdown {
+    padding: 10px 3px;
+    float: left;
+  }
+  .banner_group_timeline_part .cover_dropdown .dropdown .btn {
+    background: #f2f2f2;
+    color: #000;
+    border-radius: 0;
+    border: .5px solid #ddd;
+    padding: 3px 8px;
+  }
+  .banner_group_timeline_part .cover_dropdown .dropdown .btn:hover {
+    background: #1d9cf8;
+    color: #fff;
+  }
+  .banner_group_timeline_part .cover_dropdown .dropdown .btn i {
+    font-size: 13px;
+  }
+  .banner_group_timeline_part .dropdown-menu {
+    padding: 2px;
+  }
+  .banner_group_timeline_part .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'roboto';
+  }
+  .banner_group_timeline_part .dropdown-menu .dropdown-item:hover {
+    background: #1d9cf8;
+    color: #fff;
+  }
+  .banner_group_timeline_part .dropdown-toggle::after {
+    display: none;
+  }
+
+  .group_posts{
+      margin-top: 2vh;
+  }
+
+  @media screen and (max-width:540px) {
+    .banner_group_timeline_part img {
+        height: 200px;
+    }
+
+    .banner_group_timeline_part .change_coverpic .dropdown {
+        top: 5px;
+        right: 10px;
+    }
+
+    .banner_group_timeline_part .change_coverpic .dropdown .btn {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .banner_group_timeline_part .change_coverpic .dropdown-menu .dropdown-item {
+        font-size: 11px;
+        padding: 2px 5px;
+    }
+
+    .banner_group_timeline_part h4 {
+        bottom: 45px;
+        left: 100px;
+        font-size: 15px;
+    }
+
+    .banner_group_timeline_part h4 .btn {
+        padding: 2px 8px;
+    }
+
+    .banner_group_timeline_part .profile_pic img {
+        height: 80px;
+        width: 80px;
+        bottom: 40px;
+        left: 10px;
+    }
+
+    .banner_group_timeline_part .cover_dropdown {
+        padding-left: 10px;
+    }
+
+    .banner_group_timeline_part .cover_dropdown .dropdown {
+        padding: 5px 3px;
+        float: left;
+    }
+
+    .banner_group_timeline_part .cover_dropdown .dropdown .btn {
+        font-size: 13px;
+        padding: 3px 8px;
+    }
+
+    .banner_group_timeline_part .cover_dropdown .dropdown .btn i {
+        font-size: 13px;
+    }
+
+    .banner_group_timeline_part .dropdown-menu {
+        padding: 2px;
+    }
+
+    .banner_group_timeline_part .dropdown-menu .dropdown-item {
+        font-size: 12px;
+    }
+  }
+
+}
+
+
+

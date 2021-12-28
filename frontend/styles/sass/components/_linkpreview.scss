@@ -1,0 +1,15 @@
+.og_container{
+    .og_image{
+        height: 270px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .og_footer{
+        background-color: #F2F3F5;
+        span{
+            color: #777;
+        }
+        h5{}
+        p{color: #777;}
+    }
+}

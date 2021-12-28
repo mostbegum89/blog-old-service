@@ -1,0 +1,306 @@
+#create_blog_container {
+    max-width: 1070px;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    .create_blog_main_body {
+        background: #fff;
+        padding: 0px 85px;
+
+        .create_blog_ptb {
+            padding: 25px 0px;
+        }
+
+        .btn {
+            padding: 5px 12px;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 14px;
+            border: none;
+            font-family: 'roboto';
+            background: linear-gradient(185deg, #4b97f2 0%, #147bba 100%);
+        }
+
+        .btn:hover {
+            color: #fff;
+            background: linear-gradient(0deg, #4b97f2 0%, #177fbf 100%);
+        }
+
+        .btn:focus {
+            color: #fff;
+            background: linear-gradient(185deg, #4b97f2 0%, #147bba 100%);
+        }
+
+        
+        .create_blog_artical_part {
+            padding: 20px 10px;
+            box-shadow: 1px 2px 5px #ddd;
+        }
+
+        .create_blog_artical_part_h4 {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .create_blog_artical_left_h6 {
+            padding-bottom: 5px;
+        }
+
+        .create_blog_artical_left_input {
+            margin-bottom: 20px;
+            height: 40px;
+            font-weight: 500;
+        }
+
+        .create_blog_artical_left_input::placeholder {
+            font-weight: 400;
+            color: #aaa;
+        }
+
+        .create_blog_artical_left_input:focus {
+            font-weight: 500;
+        }
+
+        .create_blog_artical_left_input:checked {
+            font-weight: 500;
+        }
+
+        .create_blog_article_left_textbox {
+            border: 0.5px solid #ddd;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+
+        .create_blog_article_left_textbox_textarea {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            height: 160px;
+        }
+
+        /* -------------------------- */
+        .create_blog_artical_right_h6 {
+            padding-bottom: 5px;
+        }
+
+        .create_blog_artical_right_file {
+            position: relative;
+            margin-bottom: 10px;
+            background-size: cover;
+        }
+
+        .create_blog_artical_right_file_label {
+            background: transparent;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            height: 200px;
+            width: 100%;
+            color: #333;
+            font-size: 18px;
+            text-align: center;
+            padding-top: 85px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .create_blog_artical_right_file_input {
+            position: absolute;
+            display: inline-block;
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .create_blog_artical_right_select {
+            width: 100%;
+            padding: 7px;
+            border: 0.5px solid #ddd;
+            border-radius: 3px;
+            font-weight: 400;
+            color: #444;
+        }
+
+        .create_blog_artical_right_select_option {
+            padding: 5px;
+        }
+
+        .create_blog_artical_right_p {
+            padding: 5px 0px 15px;
+            color: #444;
+            font-weight: 300;
+            font-size: 13px;
+            font-family: 'roboto';
+        }
+
+        .create_blog_artical_right_p_a {
+            float: right;
+            font-size: 13px;
+            font-family: 'roboto';
+            color: #1a7bc3;
+        }
+
+        .create_blog_artical_right_p_input {
+            margin-right: 5px;
+        }
+
+        .create_post_article_right_btn {
+            width: 100%;
+        }
+
+        /*================================== */
+    }
+
+    /* Small Mobile -START (320 * 440) */
+@media (min-width: 320px) and (max-width: 440px) {
+    margin: 10px;
+	.create_blog_main_body {
+		padding: 0px 0px;
+	}
+
+	.create_blog_artical_part {
+		padding: 20px 0px;
+	}
+
+	.create_blog_artical_part_h4 {
+		padding-bottom: 10px;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.create_blog_artical_left_h6 {
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+
+	.create_blog_artical_left_input {
+		margin-bottom: 15px;
+		height: 35px;
+		font-weight: 500;
+	}
+
+	.create_blog_artical_left_input::placeholder {
+		font-size: 13px;
+	}
+
+	.create_blog_artical_left_input:focus {
+		font-weight: 500;
+	}
+
+
+
+
+	.create_blog_article_left_textbox_textarea {
+
+		height: 150px;
+	}
+
+
+	.create_blog_artical_right_select {
+		padding: 5px;
+	}
+
+	.create_blog_artical_right_select_option {
+		padding: 5px;
+	}
+
+
+}
+
+/* Small Mobile- END (320 * 440) */
+
+/* Medium Mobile- START (441 * 575)*/
+@media (min-width: 441px) and (max-width: 575px) {
+    margin: 10px;
+	.create_blog_main_body {
+		padding: 0px 0px;
+	}
+
+	.screate_blog_artical_part {
+		padding: 20px 0px;
+	}
+
+	.create_blog_artical_part_h4 {
+		padding-bottom: 10px;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.create_blog_artical_left_h6 {
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+
+	.create_blog_artical_left_input {
+		margin-bottom: 15px;
+		height: 35px;
+		font-weight: 500;
+	}
+
+	.create_blog_artical_left_input::placeholder {
+		font-size: 13px;
+	}
+
+	.create_blog_artical_left_input:focus {
+		font-weight: 500;
+	}
+
+
+
+
+	.create_blog_article_left_textbox_textarea {
+
+		height: 150px;
+	}
+
+
+	.create_blog_artical_right_select {
+		padding: 5px;
+	}
+
+	.create_blog_artical_right_select_option {
+		padding: 5px;
+	}
+
+
+	
+}
+
+/* Medium Mobile- END (441 * 575) */
+/*---------------------------------------------------------------------------------------------------------------------*/
+/* Large Mobile- START (576 * 764)*/
+@media (min-width: 576px) and (max-width: 764px) {
+	.create_blog_main_body {
+		padding: 0px 0px;
+	}
+
+
+}
+
+/* Large Mobile- END  (576 * 764)*/
+
+/*  TAB- START (765 * 991)*/
+@media (min-width: 765px) and (max-width: 991px) {
+	.create_blog_main_body {
+		padding: 0px 10px;
+	}
+
+	
+}
+
+/*  TAB- END (765 * 991)*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  Laptop- START (992 * 1199)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.create_blog_main_body {
+		padding: 0px 30px;
+	}
+
+	
+
+}
+}
+
+/* >>>>>  = (START) >>>>>>>>>>> */
+/* <<<<<  = (ENDS) <<<<<<<<<<<< */

@@ -1,0 +1,102 @@
+.login_container {
+  max-width: 700px;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  .login_main_content {
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+
+    .company__info {
+      background-color: #008080;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #fff;
+      .company__logo {
+        max-width: 100%;
+        img {
+          height: 50px;
+          width: 100%;
+        }
+      }
+    }
+
+    .fa-android {
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 640px) {
+      width: 100%;
+
+      .company__info {
+        display: none;
+      }
+
+      .login_form {
+      }
+    }
+
+    @media screen and (min-width: 642px) and (max-width: 800px) {
+      width: 90%;
+    }
+
+    .row > h2 {
+      color: #008080;
+    }
+
+    .login_form {
+      background-color: #fff;
+
+      border-top: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+    }
+
+    form {
+      padding: 0 2em;
+    }
+
+    .form__input {
+      width: 100%;
+      border: 0px solid transparent;
+      border-radius: 0;
+      border-bottom: 1px solid #aaa;
+      padding: 1em 0.5em 0.5em;
+      padding-left: 2em;
+      outline: none;
+      margin-top: 1.5em;
+      // margin-bottom:1em;
+      transition: all 0.5s ease;
+    }
+
+    .form__input:focus {
+      border-bottom-color: #008080;
+      box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+      border-radius: 4px;
+    }
+
+    .btn {
+      transition: all 0.5s ease;
+      width: 70%;
+      border-radius: 30px;
+      color: #008080;
+      font-weight: 600;
+      background-color: #fff;
+      border: 1px solid #008080;
+      margin-top: 1.5em;
+      margin-bottom: 1em;
+    }
+
+    .btn:hover,
+    .btn:focus {
+      background-color: #008080;
+      color: #fff;
+    }
+  }
+}
+
+.login_modal {
+}

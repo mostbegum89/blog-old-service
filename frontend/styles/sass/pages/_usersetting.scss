@@ -1,0 +1,634 @@
+/* >>> SIDE BAR  = (START) >>> */
+.side_manu_bar {
+  background: #f9f9f9;
+  position: fixed;
+  height: 90vh !important;
+  overflow-y: auto !important;
+  left: 0;
+  &::-webkit-scrollbar {
+    width: 5px;
+    top: 50px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #dddddd;
+    border-radius: 10px;
+  }
+  .side_manu_header {
+    background: #d5e3ea;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  .side_manu_header img {
+    height: 40px;
+  }
+  .manu_ul {
+    border-bottom: 0.5px solid #ddd;
+    padding: 10px 0px;
+    p {
+      padding: 5px 22px 10px;
+      color: #1a88c3;
+      font-family: "nexa";
+    }
+    .nav-item .nav-link {
+      color: #242424;
+      font-size: 15px;
+      font-family: "roboto";
+      border-left: 4px solid #f9f9f9;
+      padding: 8px 85px 8px 30px;
+      &:hover {
+        background: #eee;
+        border-left: 4px solid #5791ff;
+      }
+      &:active {
+        background: #d4d4d4;
+      }
+    }
+    .nav-item i {
+      height: 30px;
+      width: 30px;
+      background: rgba(0, 0, 0, 0.05);
+      text-align: center;
+      line-height: 2.1;
+      border-radius: 50%;
+      font-size: 15px;
+      margin-right: 5px;
+    }
+  }
+}
+
+// .side_manu_bar
+
+// .side_manu_bar
+
+// .side_manu_bar
+
+// .side_manu_bar
+
+// .side_manu_bar
+
+// .side_manu_bar .manu_ul
+
+// .side_manu_bar .manu_ul
+
+// .side_manu_bar .manu_ul .nav-item .nav-link
+
+// .side_manu_bar .manu_ul .nav-item .nav-link
+
+// .side_manu_bar .manu_ul
+
+/* <<< SIDE BAR  = (ENDS) <<<< */
+/* >>>>> SIDE BAR = (START) >>>>> */
+// .side_bar {
+//   top: 0;
+//   right: 0;
+//   position: absolute;
+//   background: #1a699a;
+//   height: 100%;
+//   width: 100%;
+// }
+
+/* <<<<< SIDE BAR = (ENDS) <<<<<< */
+
+//-----------general settings starts---------------
+
+/* >>> MAIN BAR  = (START) >>> */
+.manu_bar_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding: 30px 0px 0px 38px;
+}
+
+.main_bar {
+  margin: 20px 30px;
+  padding: 20px 10px;
+  background: #fff;
+  .general_from {
+    padding: 10px 10px;
+  }
+  .main_bar_footer {
+    text-align: center;
+    border-top: 0.5px solid #eee;
+    margin-top: 15px;
+  }
+  .btn {
+    margin-top: 10px;
+    font-family: "raleway";
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background: #2684d4;
+    border-radius: 5px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 0.5px solid #ddd;
+  }
+}
+
+.general_from h6 {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #222;
+  float: right;
+}
+
+.general_from .general_from_input input {
+  width: 90%;
+  height: 35px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.general_from .general_from_input textarea {
+  width: 90%;
+  height: 55px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.general_from .general_from_input select {
+  width: 50%;
+  height: 35px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #ffffff 0, #f8f8f8 100%);
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.general_from .general_from_input img {
+  height: 80px;
+  width: 80px;
+}
+
+.general_from .general_from_input .btn {
+  background: linear-gradient(to bottom, #ffffff 0, #f8f8f8 100%);
+  border-radius: 0px;
+  color: #555555;
+  width: 90%;
+  border-radius: 3px;
+}
+
+.general_from .general_from_input .btn:hover {
+  background: #ddd;
+}
+
+.general_from .general_from_input .btn:focus {
+  color: #fff;
+  background: #50ade8;
+}
+
+.general_from .general_from_input p {
+  color: #000;
+  float: left;
+  display: inline-flex;
+  padding-right: 20px;
+  padding-top: 8px;
+  font-size: 13px;
+}
+
+.general_from .general_from_input p .radio {
+  height: 16px;
+  width: 16px;
+  margin-right: 6px;
+}
+
+//------------------------------------------------------------
+
+//----------notificattion starts here-------------------------
+.manu_bar_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding: 30px 0px 0px 38px;
+}
+
+.main_bar {
+  margin: 20px 30px;
+  padding: 20px 20px;
+  background: #fff;
+}
+
+.main_bar .notification_header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #eee;
+}
+
+.main_bar .notification_header a {
+  color: #666;
+  font-size: 13px;
+  padding: 5px 15px;
+  background: #f9f9f9;
+  margin: 0px 5px;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 3px #aaa;
+}
+
+.main_bar .notification_header a:hover {
+  background: #278ece;
+  box-shadow: 1px 1px 3px #aaa;
+  color: #fff;
+}
+
+.main_bar .notification_footer {
+  text-align: center;
+  border-top: 0.5px solid #eee;
+  margin-top: 15px;
+}
+
+.main_bar .notification_footer .btn {
+  margin-top: 10px;
+  padding: 6px 30px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+
+.notification_box {
+  padding: 10px;
+}
+
+.notification_box h6 {
+  padding-top: 8px;
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+}
+
+.notification_box .notification_text {
+  padding-top: 10px;
+}
+
+.notification_box .notification_text p {
+  display: flex;
+  font-style: 12px;
+  padding: 5px 0px;
+  font-weight: 500;
+  font-family: "raleway";
+  color: #000000;
+}
+
+.notification_box .notification_text p input {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+/* >>>-------------- social settings------- >>> */
+.social_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding: 30px 0px 0px 38px;
+}
+
+.main_bar {
+  margin: 20px 30px;
+  padding: 20px 20px;
+  background: #fff;
+}
+
+.main_bar .social {
+  padding: 13px 10px;
+}
+
+.main_bar .social a {
+  float: right;
+}
+
+.main_bar .social a i {
+  font-size: 18px;
+  margin-right: 5px;
+  height: 35px;
+  width: 35px;
+  background: linear-gradient(
+    54deg,
+    rgba(255, 218, 0, 0.99203431) 0%,
+    #ff0652 50%,
+    #ff00f0 100%
+  );
+  color: #fff;
+  line-height: 2;
+  text-align: center;
+  border-radius: 3px;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.main_bar .social .social_input input {
+  width: 90%;
+  height: 35px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.main_bar .social_footer {
+  text-align: center;
+  border-top: 0.5px solid #eee;
+  margin-top: 15px;
+}
+
+.main_bar .social_footer .btn {
+  margin-top: 10px;
+  padding: 6px 30px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+
+/* >>> --------------verification------- >>> */
+.manu_bar_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding: 30px 0px 0px 38px;
+}
+.main_bar {
+  margin: 20px 30px;
+  padding: 20px 10px;
+  background: #fff;
+}
+.main_bar .verification {
+  padding: 10px 40px;
+}
+.main_bar .verification_footer {
+  text-align: center;
+  border-top: 0.5px solid #eee;
+  margin-top: 15px;
+}
+.main_bar .verification_footer .btn {
+  margin-top: 10px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+.verification .verification_input input {
+  width: 100%;
+  height: 40px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.verification .verification_input textarea {
+  width: 100%;
+  height: 100px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.verification .verification_input h6 {
+  color: #222;
+  font-size: 14px;
+}
+.verification .verification_input p {
+  color: #777;
+  font-size: 12px;
+  font-family: "raleway";
+  padding: 5px 0px;
+}
+.verification .verification_input h5 {
+  font-size: 14px;
+  color: #132331;
+  padding-bottom: 10px;
+}
+.verification .verification_input h5 i {
+  font-size: 16px;
+  color: #185eb1;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background: #eee;
+  border-radius: 50%;
+  line-height: 2.4;
+  margin-right: 5px;
+}
+
+/* >>>----------- my information-------- >>> */
+.info_header {
+  padding: 30px 0px 0px 38px;
+}
+.info_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding-bottom: 10px;
+}
+.main_bar {
+  margin: 10px 10px;
+  padding: 10px 30px;
+}
+.main_bar .informations .info_box {
+  background: #fcfcfc;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 15px 0px;
+  box-shadow: 1px 2px 4px #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main_bar .informations .info_box:hover {
+  box-shadow: 1px 2px 4px #ccc;
+  background: #4a758d;
+}
+.main_bar .informations .info_box:hover p {
+  color: #fff;
+}
+.main_bar .informations .info_box i {
+  font-size: 30px;
+  height: 65px;
+  width: 65px;
+  background: #f5f5f5;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 2.3;
+  color: #666;
+  box-shadow: inset 1px 2px 4px #ccc;
+}
+.main_bar .informations .info_box P {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.main_bar .info_footer {
+  text-align: center;
+  border-top: 0.5px solid #bbb;
+  margin-top: 15px;
+}
+.main_bar .info_footer .btn {
+  margin-top: 15px;
+  padding: 6px 30px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+
+/* >>>---------privacy------>>> */
+.privacy_header {
+  padding: 30px 0px 0px 38px;
+}
+
+.privacy_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding-bottom: 10px;
+}
+
+.main_bar {
+  margin: 10px 30px;
+  padding: 20px 20px;
+  background: #fff;
+}
+
+.main_bar .privacy {
+  padding: 13px 10px;
+}
+
+.main_bar .privacy h6 {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #222;
+  float: right;
+}
+
+.main_bar .privacy .privacy_input select {
+  width: 60%;
+  height: 35px;
+  border: 0.5px solid #d6d6d6;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background: linear-gradient(to bottom, #ffffff 0, #f6f7f9 100%);
+  position: relative;
+  border-radius: 3px;
+  color: #333;
+}
+
+.main_bar .privacy .privacy_input input {
+  width: 60%;
+  height: 35px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.main_bar .privacy_footer {
+  text-align: center;
+  border-top: 0.5px solid #eee;
+  margin-top: 15px;
+}
+
+.main_bar .privacy_footer .btn {
+  margin-top: 15px;
+  padding: 6px 30px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+
+/* >>> ---------------password--------------- >>> */
+.password_header {
+  padding: 30px 0px 0px 38px;
+}
+
+.password_header h1 {
+  font-size: 25px;
+  color: #212121;
+  font-family: "raleway";
+  padding-bottom: 10px;
+}
+
+.main_bar {
+  margin: 20px 30px;
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.main_bar .password {
+  padding: 13px 10px;
+}
+
+.main_bar .password h6 {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #222;
+  float: right;
+}
+
+.main_bar .password .password_input input {
+  width: 80%;
+  height: 35px;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.main_bar .password_footer {
+  text-align: center;
+  border-top: 0.5px solid #ddd;
+  margin-top: 15px;
+}
+
+.main_bar .password_footer .btn {
+  margin-top: 15px;
+  padding: 6px 30px;
+  font-family: "raleway";
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+}
+
+/* Small Mobile -START (320 * 440) */
+@media (min-width: 320px) and (max-width: 440px) {
+  .side_manu_bar {
+    background: #f9f9f9;
+    position: static;
+    height: 50vh !important;
+    overflow-y: auto !important;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+/* Small Mobile- END (320 * 440) */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* Medium Mobile- START (441 * 575)*/
+@media (max-width: 700px) {
+  .side_manu_bar {
+    background: #f9f9f9;
+    position: static;
+    height: 50vh !important;
+    overflow-y: auto !important;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .main_bar {
+    margin: 0 5px;
+    padding: 5px;
+  }
+  .general_from h6 {
+    font-size: 13px;
+    color: #246091;
+    float: left;
+    padding: 3px 15px;
+  }
+  .main_bar .privacy h6 {
+    padding: 5px 15px;
+    font-size: 13px;
+    color: #194f9a;
+    float: left;
+  }
+  .main_bar .password h6 {
+    padding: 6px 15px;
+    font-size: 13px;
+    color: #1a6195;
+    float: left;
+  }
+}

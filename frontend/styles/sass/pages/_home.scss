@@ -1,0 +1,55 @@
+.home {
+  margin-top: 1vh;
+}
+
+/* >>>>> POST = (START) >>>>> */
+
+/* ------------------------------------------------------------------------- */
+
+/* Small Mobile -START (320 * 440) */
+@media (min-width: 320px) and (max-width: 440px) {
+  .home {
+    padding: 0 10px;
+  }
+}
+
+/* Small Mobile- END (320 * 440) */
+
+/* Medium Mobile- START (441 * 7574)*/
+@media (min-width: 441px) and (max-width: 574px) {
+  .home {
+    padding: 0 20px;
+  }
+
+  /* -------------      */
+  .side_bar {
+    display: none;
+    padding: 0px 0px;
+  }
+
+  .dropdown-menu .dropdown-item {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+/* Medium Mobile- END (441 * 574) */
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  TAB- START (575 * 765)*/
+@media (min-width: 575px) and (max-width: 765px) {
+  .home {
+    padding: 0 20px;
+  }
+}
+
+/*  TAB- END (574 * 765)*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*  Laptop- START (766 * 1000)*/
+@media (min-width: 766px) and (max-width: 1000px) {
+}
+
+/*  Laptop- END (992 * 1199)*/
+
+/*  Destop- START (1200 * 1300)*/
+@media (min-width: 1000px) and (max-width: 1300px) {
+}

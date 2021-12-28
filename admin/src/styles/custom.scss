@@ -1,0 +1,111 @@
+.appbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid gray;
+    z-index: 11;
+    background-color: #2684D4;
+    .appbar_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 20px;
+        .collapse_icon{
+            cursor: pointer;
+            color: white;
+        }
+       button{
+           border: none;
+           outline: none;
+           background: transparent;
+           font-size: 16px;
+           font-weight:400;
+           cursor: pointer;
+           color: white;
+       }
+    }
+    
+.toggle{
+    display: none;
+}
+.collapse{
+    display: inline-block;
+}
+    @media (max-width:770px) {
+
+        .toggle{
+            display: inline-block;
+        }
+        .collapse{
+            display: none;
+        }
+    }
+    
+}
+.pro-sidebar {
+    height: 100vh;
+    position: sticky;
+    left: 0;
+    top: 0;
+
+    .pro-sidebar-layout{
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    }
+
+
+}
+.main_layout{
+    width: 100%;
+    .main_container{
+        min-height: 92vh;
+        padding: 20px;
+        background: #EBEDEF;
+    }
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    h3{
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        text-transform: capitalize;
+        span{
+            font-size: 13px;
+            color: #d4d4d4;
+        }
+    }
+    // &:hover{
+    //     background-color: $primary_color_hover;
+    // }
+}

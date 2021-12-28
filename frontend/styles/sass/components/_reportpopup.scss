@@ -1,0 +1,37 @@
+.report_box {
+    padding: 20px;
+    box-shadow: 1px 2px 8px #ddd;
+    border-radius: 8px;
+
+     span {
+        font-size: 14px;
+        font-family: 'roboto';
+        color: #444;
+        padding: 5px 15px;
+        background: #f1f1f1;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 4px 2px;
+        box-shadow: 1px 1px 2px #ddd;
+        cursor: pointer;
+        &:hover {
+            background: #107bb4;
+            color: #fff;
+        }
+        &:focus {
+            background: #107bb4;
+            color: #fff;
+        }
+    }
+
+    .report_box_active {
+        background: #107bb4 !important;
+        color: #fff !important;
+    }
+
+
+
+
+    /* <<<<< CETAGORIES = (ENDS)<<<<<< */
+
+}

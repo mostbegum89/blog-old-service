@@ -1,0 +1,201 @@
+#single_article {
+  margin-top: 2vh;
+  max-width: 1100px !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff !important;
+  padding: 0px 85px;
+
+  .blog_post_ptb {
+    padding: 25px 0px;
+  }
+  /* >>>>> BANNER = (START) >>>>> */
+  .blog_post_banner_part_img {
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  /* <<<<< BANNER = (ENDS) <<<<<< */
+  /* >>>>> PROFILE = (START) >>>>>>>>>>> */
+  .bog_post_profile_img {
+    background: rgb(214, 214, 214);
+    padding: 30px 0px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px #eee;
+  }
+  .bog_post_profile_img_img {
+    height: 70px;
+    width: 70px;
+  }
+  .bog_post_profile_h6 {
+    font-size: 15px;
+    color: #222;
+    font-family: "nexa";
+    font-weight: 400;
+    padding: 5px 0px;
+  }
+  .bog_post_profile_p {
+    font-size: 12px;
+    color: #555;
+    padding-bottom: 15px;
+  }
+  .bog_post_profile_a:hover .fa-facebook-f {
+    color: #2268ed;
+  }
+  .bog_post_profile_a:hover .fa-twitter {
+    color: #54aaea;
+  }
+  .bog_post_profile_a:hover .fa-instagram {
+    color: #bc0ba7;
+  }
+  .bog_post_profile_a_i {
+    height: 30px;
+    width: 30px;
+    margin: 0px 3px;
+    border-radius: 50%;
+    border: 0.5px solid #eee;
+    line-height: 2;
+    color: #717171;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  .bog_post_profile_a_i:hover {
+    box-shadow: 1px 4px 8px #aaa;
+    transform: translateY(-2px);
+  }
+  .blog_post_profile_text {
+    padding: 10px 10px;
+  }
+  .blog_post_profile_text_h4 {
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+  }
+  .blog_post_profile_text_p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+  }
+  /* <<<<< PROFILE = (ENDS) <<<<<<<<<<<< */
+  /* >>>>> TEXT = (START) >>>>>>>>>>> */
+  .blog_post_text_part_h4 {
+    color: #222;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+  .blog_post_text_part_p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+  }
+  .blog_post_text_serial {
+    margin: 30px 0px;
+    padding-left: 30px;
+    border-left: 4px solid #1b91f7;
+  }
+  .blog_post_text_serial_p {
+    line-height: 1.6;
+  }
+  /* <<<<< TEXT = (ENDS) <<<<<<<<<<<< */
+
+  /* >>>>> ARTICLES = (START) >>>>>>>>> */
+  .blog_post_articles_part_h4 {
+    font-weight: 600;
+    color: #222;
+    padding-bottom: 30px;
+  }
+  .blog_post_articles_item {
+    margin: 0px 15px;
+    background: #fdfdfd;
+    padding-bottom: 20px;
+    transition: 0.1s;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #aaa;
+  }
+  .blog_post_articles_item:hover {
+    box-shadow: 1px 4px 8px #aaa;
+    transform: translateY(-5px);
+  }
+  .blog_post_articles_item_img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .blog_post_articles_item_span {
+    font-size: 11px;
+  }
+  .blog_post_articles_item_h6 {
+    padding: 10px 20px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .blog_post_articles_item_p {
+    font-size: 13px;
+    padding: 0px 20px 20px;
+    border-bottom: 0.5px solid #e4ecfc;
+    margin-bottom: 10px;
+  }
+  .blog_post_articles_item_a {
+    padding: 10px 10px;
+    font-size: 12px;
+    font-family: "roboto";
+  }
+
+  .related_article {
+    box-shadow: 0 0 2px #aaa;
+    border-radius: 5px;
+    transition: 0.2s;
+    margin: 10px 0;
+    position: relative;
+    .related_article_img {
+      height: 140px;
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+    .related_article_h6 {
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 5px 5px 10px;
+    }
+    .related_article_p {
+      font-size: 11px;
+      font-family: "roboto";
+      padding: 5px;
+      color: #555;
+    }
+    .article_popular_item_span {
+      float: left;
+    }
+    .related_article_cetagori_type {
+      position: absolute;
+      padding: 2px 8px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      top: 4px;
+      right: 10px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+    .views {
+      color: #35adf8;
+      transition: 0.3s;
+    }
+
+    &:hover{
+      transform: translateY(-5px);
+      -webkit-box-shadow: 0px 14px 35px -12px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 14px 35px -12px rgba(0,0,0,0.57);
+box-shadow: 0px 14px 35px -12px rgba(0,0,0,0.57);
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding: 10px;
+    margin: 10px;
+  }
+}

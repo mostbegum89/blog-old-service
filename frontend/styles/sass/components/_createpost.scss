@@ -1,0 +1,128 @@
+.post_box {
+  padding: 10px;
+  margin: 0px 0px 15px;
+  background: #fff;
+  border-radius: 5px;
+
+
+  .post_btn {
+    padding: 5px 10px;
+  }
+
+  .post_btn a {
+    margin: 0px 3px;
+    float: right;
+  }
+
+  .field_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 0px 10px;
+        flex: 1;
+      }
+    }
+
+    input {
+      height: 40px;
+      border-radius: 5px;
+      margin: 6px 5px;
+      border: 0.5px solid #e2e2e2;
+      width: 70%;
+      background: #f9f9f9;
+      padding: 5px 10px;
+      flex: 3;
+
+      &:focus {
+        color: #000000;
+      }
+    }
+
+    div {
+      flex: 1;
+      text-align: center;
+
+      a {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+        color: #919191;
+        margin: 10px 5px;
+        line-height: 1.8;
+        text-align: center;
+        border-radius: 5px;
+
+        &:hover {
+          background: #1d9cf8;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 0;
+  }
+}
+
+.post_image_list {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  .image {
+    position: relative;
+    height: 120px;
+      width: 120px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    .img {
+      height: 120px !important;
+      width: 120px !important;
+    }
+  }
+
+  .img_overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+  }
+  .img_upload label{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
+
+//ant-tab-modal
+.ant-modal-body{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .ant-tabs-nav-list{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .ant-tabs-tab{
+       padding: 10px 0;
+       font-size: 16px;
+       width: 100%;
+       
+       display: flex;
+       justify-content: center;
+       
+  }
+}

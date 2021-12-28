@@ -1,0 +1,78 @@
+#groups_blogs {
+  max-width: 948px;
+  margin: 0 auto;
+  margin-top: 2vh;
+  .banner_part {
+    img {
+      width: 100%;
+      height: 250px;
+      position: relative;
+      object-fit: cover;
+    }
+    .banner_button {
+      background: #ffffff;
+      padding: 0px 10px;
+      .btn {
+        margin: 10px 5px;
+        color: white;
+        &:last-child {
+          float: right;
+          color: black;
+        }
+      }
+    }
+  }
+  .list_section {
+    margin: 20px 0px;
+    .list_items {
+      padding: 10px;
+      background: #fafafa;
+      margin: 15px;
+      border-bottom: 3px solid rgba(237, 237, 237, 0);
+      transition: 0.5s;
+      &:hover {
+        border-color: #41a3ea;
+      }
+      img {
+        width: 100%;
+        height: 60px;
+        padding: 0px 10px;
+        border-radius: 5px;
+      }
+      h6 {
+        margin-top: 10px;
+        color: #0c4d8e;
+        font-family: "Raleway";
+      }
+      p {
+        color: #393939;
+        padding: 3px 0px;
+      }
+      .btn {
+        margin-top: 20px;
+        float: right;
+        background: #f2f2f2;
+        color: #484848;
+        border: 1px solid #d1d1d1;
+        &:hover {
+          background: #2e8fd4;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 445px) {
+    .banner_button .btn {
+      padding: 5px;
+      font-size: 13px;
+    }
+    .list_section .list_items {
+      padding: 0;
+    }
+    .list_section .list_items .btn {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
+}
